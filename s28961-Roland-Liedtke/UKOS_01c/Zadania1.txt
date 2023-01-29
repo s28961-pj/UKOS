@@ -33,6 +33,6 @@
 	Wynik: -bash: cd: /root: Brak dostępu
 	Powód: Brak uprawnień do katalogu.
 
-13. Korzystając z MacBooka skrót Ctrl+Alt+F1 nie wykonuje żadnej czynności.
+13. Na maszynie wirtualnej z Ubuntu i GUI skrót Ctrl+Alt+F1 przełączył się na logowanie w trybie pełnoekranowych (widoczny jedynie terminal)
 
-14. Jak wyżej komenda nie wykonuje żadnej czynności, dopiero kombinacja Fn + F7 wypisuje znak "~".
+14. Kombinacja Alt + F7 powraca do GUI, a po kliknięciu w konsoli wpisuje znak: ;3~
