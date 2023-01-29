@@ -25,8 +25,11 @@ Zadanie 5:
 
 Zadanie 6:
 	Nadaję uprawnienia poprzez chmod aby każdy mógł wejść do katalogu (a=x), tylko grupa mogła wyświetlić zawartość (g=rx), właściciel ma pełne prawa (u=rwx):
-	chmod a=x,g+r,u=rwx ala
-	"chmod 111 101 000 ala" = chmod 750 ala
+	1. Cyfrowa: chmod 750 ala
+	2. Literowa z "=": chmod a=x,g=rx,u=rwx ala
+	3. Literowa z "+-": 
+	Domyślnie mamy "-rw-r--r--", czyli:
+	chmod u+x,g+x,a-r,a+x ala
 
 Zadanie 7:
 	Tworzy plik z listą plików w bieżącym katalogu
