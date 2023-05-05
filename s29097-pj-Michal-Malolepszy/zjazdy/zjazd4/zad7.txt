@@ -1,2 +1,0 @@
-Aby utworzyc plik z lista plikow w biezacym katalogu uzylem polecenia:
-ls -a > lista.txt
